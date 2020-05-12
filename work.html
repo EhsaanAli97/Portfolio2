@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View My Work</title>
+
+    <script src="https://kit.fontawesome.com/98ee59fc20.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="menu-btn">
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+        </div>
+
+        <nav class="menu">
+            <div class="menu-branding">
+                <div class="portrait">
+
+                </div>
+            </div>
+
+            <ul class="menu-nav">
+                <li class="nav-item ">
+                    <a href="index.html" class="nav-link">
+                        Home</a>
+                </li>
+                <li class="nav-item ">
+                    <a href="about.html" class="nav-link">
+                        About Me</a>
+                </li>
+                <li class="nav-item current">
+                    <a href="work.html" class="nav-link">
+                        My Work</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">
+                        How To Reach Me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="work">
+        <h1 class="lg-heading">
+            My <span class="text-secondary">Work </span>
+        </h1>
+        <h2 class="sm-heading">
+            Check out some of my projects...
+        </h2>
+
+        <div class="projects">
+            <div class="item">
+                <a href="https://ehsaanali.co.uk/" target="_blank">
+                    <img src="img/projects/Portfolio.jpg" alt="Project 1">
+                </a>
+
+                <button href="#myModal1" class="btn-light modal-button projects-btn">
+                    <i class="fas fa-eye"></i> Project
+                </button>
+
+                <a href="https://github.com/EhsaanAli97/Portfolio2020" target="_blank" class="btn-dark">
+                    <i class="fab fa-github"></i> Github
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="https://truburger.netlify.app/" target="_blank">
+                    <img src="img/projects/TruBurger.jpg" alt="Project 2">
+                </a>
+
+                <button href="#myModal2" class="btn-light modal-button projects-btn">
+                    <i class="fas fa-eye"></i> Project
+                </button>
+
+                <a href="https://github.com/EhsaanAli97/TruBurger" target="_blank" class="btn-dark">
+                    <i class="fab fa-github"></i> Github
+                </a>
+            </div>
+        </div>
+
+        <div id="myModal1" class="modal">
+            <div class="modal-content">
+                <div class="modal-info">
+                    <div class="modal-header">
+                        <span class="close">&times;</span>
+                        <h2 class="text-secondary">Personal Portfolio: </h2>
+                    </div>
+
+
+                    <p>
+                        This is my personal portfolio, which was designed and
+                        developed by myself. I used various different tools to create
+                        the final product. <br />
+                        <br />
+                        The technologies/languages used are as followed: <br />
+                        - HTML. <br />
+                        - CSS. <br />
+                        - SCSS. <br />
+                        - JavaScript. <br />
+                        - Moqups (Online Mockup, Wireframe and UI Prototyping Tool).
+                        <br />
+                        - VSCode. <br />
+                        - Photoshop. <br />
+                        <br />
+                        This website was developed after the completion of 'Responsive
+                        Web Design', 'JavaScript Algorithms' and 'Front-End Libraries'
+                        units in FreeCodeCamp. I decided to put my knowledge of HTML,
+                        CSS and JavaScript to the test and my end product is the
+                        website you're currently browsing. My portfolio website has recently been updated, incorporating
+                        SASS workflow, allowing to keep things more organised and creating style sheets much more
+                        efficiently.
+
+                    </p>
+                    <a href="https://ehsaanali.co.uk/" target="_blank">
+                        <button type="button" class="btn-dark">View Website</button>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="myModal2" class="modal">
+            <div class="modal-content">
+                <div class="modal-info">
+                    <div class="modal-header">
+                        <span class="close">&times;</span>
+                        <h2 class="text-secondary">Tru Burger: </h2>
+                    </div>
+                    <p>
+                        This is a website that I designed as a revamp for Tru Burger's
+                        existing website. I chose this specific website because I
+                        often go here to eat, familiar with the staff and etc;
+                        therefore, I felt like it would be the most appropriate
+                        website to remake. <br />
+                        <br />
+                        The technologies/languages used are as followed: <br />
+                        - HTML. <br />
+                        - CSS. <br />
+                        - JavaScript. <br />
+                        - Moqups (Online Mockup, Wireframe and UI Prototyping Tool).
+                        <br />
+                        - VSCode. <br />
+                        - Photoshop. <br />
+                        <br />
+                    </p>
+                    <a href="https://truburger.netlify.app/" target="_blank">
+                        <button type="button" class="btn-dark">View Website</button>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer id="main-footer">
+        Copyright &copy; Ehsaan Ali 2020.
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
